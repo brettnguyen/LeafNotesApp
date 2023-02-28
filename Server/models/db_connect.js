@@ -1,6 +1,15 @@
-zrequire('dotenv').config();
+//require('dotenv').config();
+const dbConfig = require("../Server/config/db.config.js");
 const mysql = require('mysql2');
+var connection = mysql.createPool({
+  host: dbConfig.HOST,
+  user: dbConfig.USER,
+  password: dbConfig.PASSWORD,
+  database: dbConfig.DB
+});
 
+module.exports = connection;
+/*
 const con = mysql.createConnection({
     host: process.env.MYSQL_HOST,
     user: process.env.MYSQL_USERNAME,
@@ -31,5 +40,5 @@ con.connect(function(err) {
   if (err) throw err;
   console.log('Database is connected successfully !');
 });
-
-  module.exports = { con, query }
+*/
+  //module.exports = { con, query }
