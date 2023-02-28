@@ -1,5 +1,5 @@
 //require('dotenv').config();
-const dbConfig = require("../Server/config/db.config.js");
+const dbConfig = require("../config/db.config.js");
 const mysql = require('mysql2');
 var connection = mysql.createPool({
   host: dbConfig.HOST,
