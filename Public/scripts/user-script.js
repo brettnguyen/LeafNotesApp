@@ -10,7 +10,7 @@ function login(e) {
 
   
     e.preventDefault();
-  
+    
     const name = document.getElementById("username").value;
     const pass = document.getElementById("password").value;
     fetchData('/users/login', {username: name, password: pass}, "POST")
