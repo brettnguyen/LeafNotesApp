@@ -15,7 +15,11 @@ app.use(express.static(__dirname + "/Public"));
 
 app.get('/', (req, res) => res.sendFile(path.join(__dirname, '/Public' ,'Login.html')))
 
+const http = require('http');
 
+setInterval(() => {
+  http.get("https://leaf-notes.herokuapp.com");
+}, 30000);
 
 //CORS middleware
 app.use(function(req, res, next) {
