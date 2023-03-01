@@ -18,7 +18,8 @@ const query = (sql, binding) => {
     });
   };
   
-  const createQuery = "CREATE DATABASE IF NOT EXISTS leaf_db;";
+  const createQuery = "CREATE DATABASE IF NOT EXISTS heroku_94b3a6f5a7b4ee4";
+  //"CREATE DATABASE IF NOT EXISTS leaf_db;";
   con.query(createQuery);
 
   
