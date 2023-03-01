@@ -2,13 +2,13 @@ require('dotenv').config();
 const mysql = require('mysql');
 
 const con = mysql.createConnection({
-    host: us-cdbr-east-06.cleardb.net,
+    host: "us-cdbr-east-06.cleardb.net",
     //process.env.MYSQL_HOST,
-    user: b7e5bdaf2e25d4,
+    user: "b7e5bdaf2e25d4",
     //process.env.MYSQL_USERNAME,
-    password: aa202eff,
+    password: "aa202eff",
     //process.env.MYSQL_PASSWORD,
-    database: heroku_94b3a6f5a7b4ee4
+    database: "heroku_94b3a6f5a7b4ee4"
     //process.env.MYSQL_DB
 
 });
