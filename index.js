@@ -17,9 +17,7 @@ app.get('/', (req, res) => res.sendFile(path.join(__dirname, '/Public' ,'Login.h
 
 const http = require('http');
 
-setInterval(() => {
-  http.get("https://leaf-notes.herokuapp.com");
-}, 30000);
+
 
 //CORS middleware
 app.use(function(req, res, next) {
