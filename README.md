@@ -7,9 +7,6 @@ A Notes app. That in the future will allow you to visit other users pages to vie
 
 </pre>
 
-**<h1>Web Link:</h1>**
-https://leaf-notes.herokuapp.com/
-
 <pre>
 
 </pre>
