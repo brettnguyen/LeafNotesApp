@@ -57,9 +57,6 @@ where it displays your username the "delete account" button. To delete an accoun
 
 -mySQL was used as my database.
 
-<pre>
-
-</pre>
 
 **<h2>ERD:</h2>**
 
