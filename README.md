@@ -3,13 +3,7 @@
 
 A Notes app. That in the future will allow you to visit other users pages to view there notes too. As well as add upvote and downvote options to notes on either your page or other users pages. The function to add notes to other users pages is something to be implemented in the future as well.
 
-<pre>
 
-</pre>
-
-<pre>
-
-</pre>
 
 **<h2>FUNCTIONS:</h2>**
 
@@ -30,9 +24,6 @@ where it displays your username the "delete account" button. To delete an accoun
 
 -A user can cancel the ability to edit a note and keep there previous note by pushing cancel when it appears after you click the edit button.
 
-<pre>
-
-</pre>
 
 **<h2>BUGS:</h2>**
 
@@ -50,9 +41,7 @@ where it displays your username the "delete account" button. To delete an accoun
 
 -Resizing the page on the home page causes objects to move away from there current locations
 
-<pre>
 
-</pre>
 
 **<h2>FRAME WORKS/PROGRAMMING LANGUAGES:</h2>**
 
@@ -76,9 +65,7 @@ where it displays your username the "delete account" button. To delete an accoun
 
 ![ERD](https://user-images.githubusercontent.com/77566307/168484555-8f56814c-563e-413c-8966-2725021e5458.png)
 
-<pre>
 
-</pre>
 
 **<h2>HOW TO DOWNLOAD AND USE:</h2>**
 
@@ -122,9 +109,7 @@ where it displays your username the "delete account" button. To delete an accoun
 
 8. If you run into an error, take your setup out of Strict Mode: SET @@global.sql_mode= '';
 
-<pre>
 
-</pre>
 
 **<h2>RUN PROJECT:</h2>**
 
@@ -132,9 +117,7 @@ where it displays your username the "delete account" button. To delete an accoun
 
 2. Go to a browser and type in localhost:3000 then enter.
 
-<pre>
 
-</pre>
 
 **<h2>WEBSITE IMAGES:</h2>**
 
